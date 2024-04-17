@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things I Think Are Cool</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/fontsize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/csi.js"></script>
+  </head> 
+  <style>
+.responsive {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* 4:3 */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.responsive iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+</style>
+  <body>  
+  
+<p data-include="/topnav.html"></p> 
+
+<div id="maincontent">
+    <h1 align="center"><font face="vcr_eas">THINGS I THINK ARE COOL</font></h1>
+
+    <p>click the button below to find a random cool thing!</p>
+    <button align="center" id="btn">Click Me</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="responsive">
+<iframe id="frame" src="" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+</div>
+</div>
+
+<script type="text/javascript" src="/topnav.js"></script>
+<script type="text/javascript" src="/coolthings.js"></script>
+  </body>
+</html>
