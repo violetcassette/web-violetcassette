@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Violet Cassette Recorder</title>
+    <title>Insert a violetcassette into the recorder.</title>
   </head>
   
   <style>
@@ -28,14 +28,19 @@
 #imagenote {
   text-align: center;
   font-size:15px;
-  color:#757575;
+  color:#686868;
   max-width: 1000px;
   margin: auto;
 }
 
 #eas {
   margin-bottom: 0;
+  padding-bottom: 10px;
   line-height: 1;
+}
+
+#ticker {
+  padding-top: 0px;
 }
 
 /* Sets link colors */
@@ -58,39 +63,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* finally a marquee replacement */
-.marquee {
-    width: 1000px;
-    height: 70px;
-	line-height: 0px;
-	color: white;
-    white-space: nowrap;
-    overflow: hidden;
-    box-sizing: border-box;
-    margin: auto;
-}
-.marquee p {
-    display: inline-block;
-    padding-top: 0px;
-    padding-left: 100%;
-    animation: marquee 60s linear infinite;
-    position: relative;
-  top: -13px;
-}
-@keyframes marquee {
-    0%   { transform: translate(0, 0); }
-    100% { transform: translate(-100%, 0); }
-}
   </style>
   
   <body>
     <p id="eas">EMERGENCY ALERT SYSTEM</p>
-    <div class="marquee">
-      <div class="block">
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Civil Authorities have issued a *** Required Monthly Test *** for the following counties: index.html - about.html - interests.html - kinlist.html - resume.html - coolthings.html - siteinfo.html. Effective until 3/26/23 12:59:00 PDT.&nbsp;&nbsp;&nbsp;Sent from VICASSTE.</p>
-    </div>
-  </div>
-    <p><a href="/about.html">About Me</a></p>
+   <marquee width="1000px" scrollamount="15">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Civil Authorities have issued a *** Required Monthly Test *** for the following counties: index.html - about.html - interests.html - kinlist.html - resume.html - coolthings.html - siteinfo.html. Effective until 3/26/23 12:59:00 PDT.&nbsp;&nbsp;&nbsp;Sent from VICASSTE.</marquee>
+    <p><a href="/about/index.html">About Me</a></p>
     <p><a href="/interests.html">Interests</a></p>
     <p><a href="/kinlist.html">Kinlist</a></p>
     <p><a href="/resume.html">Résumé</a></p>

@@ -1,0 +1,40 @@
+#comics, .controls {
+  width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.controls button, .controls input {
+    font-size: 15px;
+    font-family: 'helvetica';
+    background-color: #553670;
+    border: 5px solid #bb8be0;
+    color: white;
+}
+
+.controls input, .controls div {
+    display: inline-block;
+}
+
+.controls button:hover {
+    background-color: #40225A;
+    border: 5px solid #8158A0;
+    color: white;
+}
+
+.controls button {
+    width: 60px;
+}
+
+.comiclist {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 450px) {
+    #comics {
+        width: 100%;
+    }
+}
