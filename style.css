@@ -9,10 +9,10 @@
 }
 
 body {
-background: rgb(180,125,203);
-background: -moz-linear-gradient(130deg, rgba(180,125,203,1) 0%, rgba(39,16,59,1) 100%);
-background: -webkit-linear-gradient(130deg, rgba(180,125,203,1) 0%, rgba(39,16,59,1) 100%);
-background: linear-gradient(130deg, rgba(180,125,203,1) 0%, rgba(39,16,59,1) 100%);
+  background: rgb(82,0,131);
+  background: -moz-linear-gradient(130deg, rgba(82,0,131,1) 0%, rgba(20,2,51,1) 100%);
+  background: -webkit-linear-gradient(130deg, rgba(82,0,131,1) 0%, rgba(20,2,51,1) 100%);
+  background: linear-gradient(130deg, rgba(82,0,131,1) 0%, rgba(20,2,51,1) 100%);
 background-attachment: fixed;
 color: white;
 font-family: "helvetica";
@@ -28,7 +28,7 @@ h1 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #bb8be0;
+  background-color: #5A4C9A;
 }
 
 .topnav a {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #754e96;
+  background-color: #4E4285;
 }
 
 .topnav a.active {
@@ -68,7 +68,7 @@ color: #ffffff;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
-  border: 5px solid #553670;
+  border: 5px solid #423871;
 }  
 
 #topnavdiv img {
@@ -78,17 +78,17 @@ color: #ffffff;
   
 /* sets default content area characteristics */  
   #maincontent {
-  background-color: #553670;
+  background-color: #694497; 
   width: 900px;
-  border: 5px solid #bb8be0;
+  border: 5px solid #4B306E;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer {
-background-color: #bb8be0;
-border: 5px solid #553670;
+background-color: #584F8C;
+border: 5px solid #453B68;
 margin-left: auto;
 margin-right: auto;
 margin-top: 5px;
